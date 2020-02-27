@@ -3,26 +3,6 @@
 #	o Classes : BigBooBoo : Class for exceptions/errors/boo-boo's
 #	            mp3file   : Class representing an mp3file, is derived from
 #	                        Userdict.Userdict
-#========================================================================
-# For the test, usage : mp3file [filenames]
-# 	If no filenames are given, it assumes all files in the present directory.
-# This module is part of an application I'd like to write that would let you
-# read/write/modify the ID3 tags of mp3 files, it will also let you change the
-# file name, and organize your mp3 files and all this would be done with a
-# curses front-end. This module does all those things (except the "organize" part).
-# If you'd like me explain anything or change anything or if you'd like to join me
-# in finishing this thing up ....feel free to contact me: steve<lonetwin@yahoo.com>
-#  *I've written+tested this on Linux only, though I see no reason why it
-#   shouldn't work on windows.
-# Note: 
-# There is another nice 'lil script I've written called chgnm.py, it
-# "...changes the names of files named the way I don't like 'em to the way I like
-# 'em...", it can be found at http://www.lowerstandard.com/python/chgnm.py, This
-# site by the way (The Useless Python site) is a *real* good site, lots of code
-# there that is "...far from Useless...", if you are just learning python (like
-# me :D )...you'd definitely want to have a look at it, the URL is the one above
-# minus the 'chgnm.py'. 'nuff said, Have fun !!!
-#==========================================================================
 
 from UserDict import UserDict
 import re
